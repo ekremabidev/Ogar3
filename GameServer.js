@@ -21,7 +21,7 @@ var serveStatic = require('serve-static');
 var serve = serveStatic('./client/');
 // GameServer implementation
 function GameServer() {
-    // Startup 
+    // Startup
     this.run = true;
     this.lastNodeId = 1;
     this.lastPlayerId = 1;
@@ -59,7 +59,7 @@ function GameServer() {
     };
     this.config = {                   // Border - Right: X increases, Down: Y increases (as of 2015-05-20)
         serverMaxConnections: 64,     // Maximum amount of connections to the server.
-	    serverMaxConnPerIp: 9, 
+	    serverMaxConnPerIp: 9,
         serverPort: 8080,            // Server port
         serverGamemode: 0,            // Gamemode, 0 = FFA, 1 = Teams
         serverResetTime: 0,          // Time in hours to reset (0 is off)
@@ -119,7 +119,7 @@ function GameServer() {
     };
     // Parse config
     this.loadConfig();
-    this.oldcolors = [{'r':235,'b':0,'g':75},{'r':225,'b':255,'g':125},{'r':180,'b':20,'g':7},{'r':80,'b':240,'g':170},{'r':180,'b':135,'g':90},{'r':195,'b':0,'g':240},{'r':150,'b':255,'g':18},{'r':80,'b':0,'g':245},{'r':165,'b':0,'g':25},{'r':80,'b':0,'g':145},{'r':80,'b':240,'g':170},{'r':55,'b':255,'g':92}]; 
+    this.oldcolors = [{'r':235,'b':0,'g':75},{'r':225,'b':255,'g':125},{'r':180,'b':20,'g':7},{'r':80,'b':240,'g':170},{'r':180,'b':135,'g':90},{'r':195,'b':0,'g':240},{'r':150,'b':255,'g':18},{'r':80,'b':0,'g':245},{'r':165,'b':0,'g':25},{'r':80,'b':0,'g':145},{'r':80,'b':240,'g':170},{'r':55,'b':255,'g':92}];
 
     // Gamemodes
     this.gameMode = Gamemode.get(this.config.serverGamemode);
@@ -167,10 +167,10 @@ this.socketServer = new WebSocket.Server({server: hserver, perMessageDeflate: fa
     // Properly handle errors because some people are too lazy to read the readme
     this.socketServer.on('error', function err(e) {
         switch (e.code) {
-            case "EADDRINUSE": 
+            case "EADDRINUSE":
                 console.log("[Error] Server could not bind to port! Please close out of Skype or change 'serverPort' in gameserver.ini to a different number.");
                 break;
-            case "EACCES": 
+            case "EACCES":
                 console.log("[Error] Please make sure you are running Ogar with root privileges.");
                 break;
             default:
@@ -205,6 +205,9 @@ this.socketServer = new WebSocket.Server({server: hserver, perMessageDeflate: fa
         }
 
         function close(error) {
+            console.log('====================================');
+            console.log(this.socket);
+            console.log('====================================');
             this.server.log.onDisconnect(this.socket.remoteAddress);
             var client = this.socket.playerTracker;
             console.log( "\u001B[31mClient Disconnect: " + this.socket.remoteAddress + ":" + this.socket.remotePort +" Error " + error + "\u001B[0m");
@@ -264,7 +267,7 @@ GameServer.prototype.onHttpServerOpen = function() {
         if (this.config.serverResetTime > 0 ) {
             console.log("* \u001B[33mAuto shutdown after "+this.config.serverResetTime+" hours\u001B[0m");
         }
-        
+
         if ( this.config.serverVersion == 1 )
         		console.log("* \u001B[33mProtocol set to new, clients with version 561.20 and up can connect to this server\u001B[0m");
         if ( this.config.serverVersion == 0 )
@@ -337,7 +340,7 @@ GameServer.prototype.getRandomColor = function() {
         r: color.r,
         b: color.b,
         g: color.g
-    }; 
+    };
     } else {
      var colorRGB = [0xFF, 0x07, (Math.random() * 256) >> 0];
         colorRGB.sort(function () { return 0.5 - Math.random() });
@@ -495,7 +498,7 @@ GameServer.prototype.exitserver = function() {
 		}
 		this.socketServer.close();
 		process.exit(1);
-		window.close();		
+		window.close();
 }
 
 GameServer.prototype.updateClients = function() {
@@ -805,7 +808,7 @@ GameServer.prototype.getCellsInRange = function(cell) {
 	/*var r = 85;
 	 var topY = cell.position.y - r;
     var bottomY = cell.position.y + r;
-	
+
     var leftX = cell.position.x - r;
     var rightX = cell.position.x + r;*/
 

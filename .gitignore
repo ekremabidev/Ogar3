@@ -1,2 +1,5 @@
 logs/
 node_modules/
+logs/playerlog.txt
+client/settings.json
+client/leaderboard/*
