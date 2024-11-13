@@ -1,11 +1,12 @@
-OGar Server - Game Mode: Free For All - Running Time: 436sec
-ID:    1, Nick: ghostvengeful62, Score:    230, Cells:  1, Status: 1 IP: BOT
-ID:    2, Nick: vengeancerider10, Score:    233, Cells:  1, Status: 1 IP: BOT
-ID:    3, Nick: shadowhunter11 , Score:    216, Cells:  1, Status: 1 IP: BOT
-ID:    4, Nick: ironshadow83   , Score:    237, Cells:  1, Status: 1 IP: BOT
-ID:    5, Nick: venomblade16   , Score:    208, Cells:  1, Status: 1 IP: BOT
-ID:    6, Nick: ironwolf07     , Score:    239, Cells:  1, Status: 1 IP: BOT
-ID:    7, Nick: darkclaw19     , Score:    240, Cells:  1, Status: 1 IP: BOT
-ID:    8, Nick: vengefulfang55 , Score:    234, Cells:  1, Status: 1 IP: BOT
-ID:    9, Nick: shadowwarrior30, Score:    231, Cells:  1, Status: 1 IP: BOT
-ID:   10, Nick: stormvengeful23, Score:    219, Cells:  1, Status: 1 IP: BOT
+OGar Server - Game Mode: Free For All - Running Time: 101sec
+ID:    1, Nick: selamikisik0   , Score:     48, Cells:  1, Status: 1 IP: BOT
+ID:    2, Nick: beyazmendil38  , Score:     46, Cells:  1, Status: 1 IP: BOT
+ID:    3, Nick: razesusur      , Score:     54, Cells:  1, Status: 1 IP: BOT
+ID:    4, Nick: lind45         , Score:     57, Cells:  1, Status: 1 IP: BOT
+ID:    5, Nick: efel34         , Score:     53, Cells:  1, Status: 1 IP: BOT
+ID:    6, Nick: ertandac       , Score:     52, Cells:  1, Status: 1 IP: BOT
+ID:    7, Nick: alicandar      , Score:     49, Cells:  1, Status: 1 IP: BOT
+ID:    8, Nick: servet0gunay   , Score:     56, Cells:  1, Status: 1 IP: BOT
+ID:    9, Nick: delikanlim00   , Score:     42, Cells:  1, Status: 1 IP: BOT
+ID:   10, Nick: isyankar_akrep , Score:     54, Cells:  1, Status: 1 IP: BOT
+ID:   11, Nick: fnt            , Score:     24, Cells:  1, Status: 0 IP: 127.0.0.1

@@ -1,9 +1,9 @@
 {
     "serverStatus": "on",
-    "pause": false,
-    "tablotext": "29.10.2024 14:00 - 15:00 Sıralaması",
-    "leaderboardLast": "",
+    "pause": true,
+    "tablotext": "13.11.2024 17:00 - 18:00 Sıralaması",
+    "leaderboardLast": "leaderboard_20241113132142377.json",
     "duyurutext": "Ödül: 10 kişiye 250₺",
-    "adminPass": "33cena33",  
+    "adminPass": "33cena33",
     "serverTimeout": "300"
-}  
+}
