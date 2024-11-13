@@ -2,61 +2,61 @@
   {
     "id": 4,
     "name": "lind45",
-    "score": 57,
+    "score": 46,
     "rank": 1
-  },
-  {
-    "id": 8,
-    "name": "servet0gunay",
-    "score": 56,
-    "rank": 2
-  },
-  {
-    "id": 3,
-    "name": "razesusur",
-    "score": 54,
-    "rank": 3
-  },
-  {
-    "id": 10,
-    "name": "isyankar_akrep",
-    "score": 54,
-    "rank": 4
-  },
-  {
-    "id": 5,
-    "name": "efel34",
-    "score": 53,
-    "rank": 5
-  },
-  {
-    "id": 6,
-    "name": "ertandac",
-    "score": 52,
-    "rank": 6
   },
   {
     "id": 7,
     "name": "alicandar",
-    "score": 49,
-    "rank": 7
+    "score": 44,
+    "rank": 2
+  },
+  {
+    "id": 8,
+    "name": "servet0gunay",
+    "score": 44,
+    "rank": 3
+  },
+  {
+    "id": 9,
+    "name": "delikanlim00",
+    "score": 44,
+    "rank": 4
   },
   {
     "id": 1,
     "name": "selamikisik0",
-    "score": 48,
+    "score": 43,
+    "rank": 5
+  },
+  {
+    "id": 5,
+    "name": "efel34",
+    "score": 43,
+    "rank": 6
+  },
+  {
+    "id": 6,
+    "name": "ertandac",
+    "score": 43,
+    "rank": 7
+  },
+  {
+    "id": 10,
+    "name": "isyankar_akrep",
+    "score": 43,
     "rank": 8
   },
   {
     "id": 2,
     "name": "beyazmendil38",
-    "score": 46,
+    "score": 40,
     "rank": 9
   },
   {
-    "id": 9,
-    "name": "delikanlim00",
-    "score": 42,
+    "id": 3,
+    "name": "razesusur",
+    "score": 39,
     "rank": 10
   }
 ]
