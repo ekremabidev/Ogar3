@@ -1,12 +1,12 @@
-OGar Server - Game Mode: Free For All - Running Time: 315sec
-ID:    1, Nick: selamikisik0   , Score:     48, Cells:  1, Status: 1 IP: BOT
-ID:    2, Nick: beyazmendil38  , Score:     46, Cells:  1, Status: 1 IP: BOT
-ID:    3, Nick: razesusur      , Score:     54, Cells:  1, Status: 1 IP: BOT
-ID:    4, Nick: lind45         , Score:     57, Cells:  1, Status: 1 IP: BOT
-ID:    5, Nick: efel34         , Score:     53, Cells:  1, Status: 1 IP: BOT
-ID:    6, Nick: ertandac       , Score:     52, Cells:  1, Status: 1 IP: BOT
-ID:    7, Nick: alicandar      , Score:     49, Cells:  1, Status: 1 IP: BOT
-ID:    8, Nick: servet0gunay   , Score:     56, Cells:  1, Status: 1 IP: BOT
-ID:    9, Nick: delikanlim00   , Score:     44, Cells:  1, Status: 1 IP: BOT
-ID:   10, Nick: isyankar_akrep , Score:     54, Cells:  1, Status: 1 IP: BOT
-ID:   13, Nick: fnt            , Score:     21, Cells:  1, Status: 0 IP: 127.0.0.1
+OGar Server - Game Mode: Free For All - Running Time: 161sec
+ID:    1, Nick: servet0gunay   , Score:     33, Cells:  1, Status: 1 IP: BOT
+ID:    2, Nick: delibozuk51    , Score:     45, Cells:  1, Status: 1 IP: BOT
+ID:    3, Nick: isyankarakrep  , Score:     39, Cells:  1, Status: 1 IP: BOT
+ID:    4, Nick: k4sirg4        , Score:     43, Cells:  1, Status: 1 IP: BOT
+ID:    5, Nick: kalpkirici     , Score:     32, Cells:  1, Status: 1 IP: BOT
+ID:    6, Nick: razesusur      , Score:     25, Cells:  1, Status: 1 IP: BOT
+ID:    7, Nick: efel34         , Score:     32, Cells:  1, Status: 1 IP: BOT
+ID:    8, Nick: 0orhanuslu     , Score:     40, Cells:  1, Status: 1 IP: BOT
+ID:    9, Nick: erhan218       , Score:     35, Cells:  1, Status: 1 IP: BOT
+ID:   10, Nick: delikanlim00   , Score:     39, Cells:  1, Status: 1 IP: BOT
+ID:   11, Nick: fnt            , Score:     17, Cells:  1, Status: 0 IP: 127.0.0.1
